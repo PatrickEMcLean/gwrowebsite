@@ -1,0 +1,52 @@
+mine.css
+
+
+.heading {
+
+    margin:auto;
+    width:5em;
+}
+
+.container {
+
+    width:95%;
+    
+}
+
+#test {
+
+    -webkit-border-image: none;
+background-color: rgb(255, 255, 255);
+border-bottom-color: rgb(216, 216, 216);
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-left-color: rgb(216, 216, 216);
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: rgb(216, 216, 216);
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: rgb(216, 216, 216);
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+border-top-style: solid;
+border-top-width: 0px;
+box-sizing: border-box;
+display: block;
+font-family: Roboto, arial, sans-serif;
+font-size: 13px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+height: 706px;
+line-height: 18px;
+opacity: 1;
+position: relative;
+vertical-align: top;
+visibility: visible;
+white-space: normal;
+width: 440px;
+z-index: auto;
+}
