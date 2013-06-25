@@ -35,6 +35,7 @@ code { font-family: "Courier New", Courier, Monaco, monospace; background: #f2f2
     padding-top: 30px; /* IE6 workaround*/
     height: 0;
     overflow: hidden;
+
 }
 
 .embed-container iframe,
@@ -50,18 +51,37 @@ code { font-family: "Courier New", Courier, Monaco, monospace; background: #f2f2
 }
 
 
+
+.videolimit {
+	max-width: 700px;
+	margin: auto;
+}
+
 textarea
 {
     width:99%;
-    height: 105px;
+    height: 150px;
+	font-size: 20px;
+
+
 }
 
 
 #header { 
  
 	padding-top: 0px;
-	padding-bottom: 10px;}
+	padding-bottom: 0px;
+}
 
+#header h2 {
+
+	font-family: 'Droid Serif', serif;
+	font-size: 35px;
+	line-height: 55px; 
+	margin-left: 0px; 
+	text-align: center;
+
+}
 
 .contact {
 
