@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Good Words (Right Order)</title>
+    <link>http://goodwordsrightorder.com</link>
+    <description>A more powerful way to thing about writing.</description>
+   
+    <item>
+       <title>How to Kill A Word</title>
+       <link>http://www.goodwordsrightorder.com/#kill</link>
+       <description>"If you catch and adjective, kill it."</description>
+    </item>
+    
+    <item>
+       <title>How to Craft a Line</title>
+       <link>http://www.goodwordsrightorder.com/#line</link>
+       <description>"Subject line, headline, whatever."</description>
+    </item>
+
+    <item>
+       <title>The Road to Hell is Paved with Adverbs</title>
+       <link>http://www.goodwordsrightorder.com/#hell</link>
+       <description>"Beware of words ending in -ly"</description>
+    </item>
+
+    <item>
+       <title>Rewriting Videos</title>
+       <link>http://www.goodwordsrightorder.com/#videos</link>
+       <description>"Subject line, headline, whatever."</description>
+    </item>
+    
+  </channel>
+</rss>
