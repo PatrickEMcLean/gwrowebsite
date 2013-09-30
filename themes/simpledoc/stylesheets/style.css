@@ -1,0 +1,556 @@
+/*=================================*/
+/* Pico Default Theme
+/* By: Gilbert Pellegrom
+/* http: //dev7studios.com
+/*=================================*/
+
+
+/* Reset Styles
+/*---------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	letter-spacing:.03em;
+
+}
+
+
+
+body {
+
+	color: black;
+	background: white;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 15;
+}
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
+
+/* hand cursor on clickable input elements */
+label, input[type=button], input[type=submit], button {
+	cursor: pointer;
+}
+
+/* make buttons play nice in IE:	 
+		www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+button {
+	width: auto;
+	overflow: visible;
+}
+
+/* Sharper Thumbnails */
+img {
+	display:block;
+	-ms-interpolation-mode: bicubic;
+	margin:auto;
+	width:100%;
+}
+
+/* Input Styles
+/*---------------------------------------------*/
+input,
+textarea,
+select {
+	padding: 5px;
+	font: 400 1em Verdana, Sans-serif;
+	color: #666;
+	background: #fff;
+	border: 1px solid #999999;
+	margin: 0 0 1em 0;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+	color: #000;
+	background: #fff;
+	border: 1px solid #666666;
+}
+
+/* Main Styles
+/*---------------------------------------------*/
+body {
+
+	font-family: 'Libre Baskerville', serif;
+
+	font-size: 110%;
+	line-height: 2;
+	color: black;
+	background: #fff;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+a, a:visited {
+	color: red;
+	text-decoration: none;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+a:hover, a:active {
+	color: grey;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+	line-height: 1.2em;
+	margin-bottom: 0.6em;
+
+
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+
+}
+
+h1 {
+	font-size: 2em;
+
+}
+
+
+h2,h3 {
+	font-size: 1.5em;
+	margin-top: 1.5em;
+	margin-bottom: .2Sem;
+	margin-left: 1em;
+	margin-right: 1em;
+
+	text-align: center;
+	font-style: italic;
+}
+
+h4 {
+	font-size: 1.4em;
+	margin-top: .2em;
+	margin-bottom: .5em;
+	
+	text-align: left;
+	font-style: italic;
+
+	
+}
+
+p {
+	margin-bottom: 1em;
+	margin-top: 1em;
+	line-height: 1.7em;
+	font-size: 1.3em;
+	text-align: justify;
+
+
+}
+
+p.booktext {
+	margin-left: 2em;
+}
+
+
+ol {
+	margin-bottom: .5em;
+	padding-left: 60px;
+
+}
+
+
+ul {
+	/*padding-left: 30px;*/
+	margin-bottom: .5em;
+	list-style-type:none;
+	margin: auto;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+i, em {
+	font-style: italic;
+}
+
+u {
+	text-decoration: underline;
+}
+
+abbr, acronym {
+	cursor: help;
+	border-bottom: 0.1em dotted;
+}
+
+td, td img {
+	vertical-align: top;
+}
+
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+
+code {
+	font-family: Courier, "Courier New", Monaco, Tahoma;
+	background: #eee;
+	color: #333;
+	padding: 0px 2px;
+}
+
+pre {
+	background: #eee;
+	padding: 20px;
+	margin-bottom: 1em;
+	overflow: auto;
+}
+
+blockquote {
+	font-style: italic;
+	margin: 0 0 1em 15px;
+	padding-left: 10px;
+	border-left: 5px solid #dddddd;
+}
+
+.year  {
+		
+	font-size: 1.1em;
+	margin-top: 1.5em;
+	margin-bottom: .5em;
+	margin-left: 1em;
+	margin-right: 1em;
+	color:black;
+	text-align: center;
+	font-style: italic;
+
+
+
+}
+
+.footnotes{
+	font-size: 70%;
+
+}
+
+.footnotes hr {
+	
+}
+
+
+.left { float: left;
+		position:relative;
+		margin-right: 2%;
+		padding-right: 2%;
+		padding-bottom: 1%;
+		
+		text-align:left;
+	
+	
+}
+
+.right { float: right;
+		 position:relative;
+		 margin-left: 2%;
+		padding-left: 2%;
+		padding-bottom: 1%;
+		
+		 text-align:right;
+
+		
+
+}
+
+.aside{
+	clear:both;
+	font-style: italic;
+	font-size: 80%;
+	max-width: 150px;
+	line-height: 1.5em;
+	padding-top: 1.2em;
+	
+}
+
+.book{
+	padding-top: .5em;
+	padding-right: 1.7em;
+	width: 7em;
+	
+}
+
+
+.big{
+	max-width: 200px;
+}
+
+.center {
+
+	margin: 0 auto;
+	padding-bottom: 1em;
+}
+
+
+.searchblob {
+	width: 500px;
+	margin: 0 auto;
+	padding-bottom: 1em;
+
+}
+
+.vertheroimage {
+	width: 300px;
+	margin: 0 auto;
+	padding-bottom: 1em;
+
+}
+
+
+
+
+.gsc-search-button {
+	padding-top: 16px;
+}
+
+.subscribe {
+	text-align:right;
+	font-size: 80%
+
+}
+
+
+/* Table of Contents Style
+/*---------------------------------------------*/
+
+.contents {
+	
+	
+}
+
+
+.date {
+  
+  text-align: right;
+  padding-right: 1em;
+  width: 5em;
+}
+
+.feature {
+
+	margin-bottom: 1.5em;
+}
+
+
+/* Structure Styles
+/*---------------------------------------------*/
+.inner {
+	max-width: 700px;
+	margin: 0 auto;
+
+}
+
+#header {
+	text-align: center;
+	padding: 10px 0;
+	margin-bottom: 3em;
+	margin-top:3em;
+	font-size: 60%;
+	color: black;
+	line-height: 1.2em;
+
+	
+}
+#header a { color: black; }
+#header a:hover { color: red; }
+#header h1 { 
+	margin-top: .10em;
+	margin-bottom: .20em;
+	font-size: 3em;
+}
+#header .nav {
+	
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#header .nav li { display: inline-block; }
+#header .nav a {
+	
+}
+
+#header .headertype {
+	line-height: 1.3em;
+	font-size: 110%
+
+}
+
+#header .headertype a {
+
+	 color: red; 
+}
+
+#header .headertype a:hover {
+
+	 color: grey; 
+}
+
+#footer {
+	/*background: #707070;*/
+	padding: 30px 0;		
+	/*margin-top: 80px;*/
+	color: grey;
+}
+#footer a { color: red; }
+#footer a:hover { color: grey; }
+
+
+/* Video and Audio Wrappers
+/*---------------------------------------------*/
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+/* Misc Styles
+/*---------------------------------------------*/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+@media all and (max-width: 1024px) {
+	
+	.inner { width:92%;
+		     margin: 0 auto;
+		 }
+
+
+    .left { float: left;
+		
+		text-align:right;
+
+			}
+
+	.right { float: right;
+		
+		 text-align:left;
+
+			}
+
+
+
+
+}
+
+@media all and (max-width: 640px) {
+
+	body{ font-size:75%;}
+
+	.inner { width:92%;
+		     margin: 0 auto;
+		}
+
+	img {
+			max-width: 100%;
+			height: auto;
+		}
+
+			audio {
+		width:200px;
+	
+}
+
+	.aside{
+		clear:both;
+		font-style: italic;
+		font-size: 100%;
+		max-width: 75px;
+		line-height: 1.5em;
+		z-index:20;
+
+		}
+
+		.book{
+			padding-top: .5em;
+			padding-right: 1.7em;
+			width: 7em;		
+	
+       }
+       
+
+
+.searchblob {
+	width:250px;
+}
+
+
+.vertheroimage {
+	width: 200px;
+	margin: 0 auto;
+	padding-bottom: 1em;
+
+}
+
+
+
+
+		}
+}
+

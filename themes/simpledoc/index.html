@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	
+	<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+{% if meta.description %}
+	<meta name="description" content="{{ meta.description }}"> 
+{% endif %}
+
+{% if meta.robots %}
+	<meta name="robots" content="{{ meta.robots }}">
+{% endif %}
+	
+	
+	<link rel="stylesheet" href="{{ theme_url }}/stylesheets/style.css" type="text/css" />
+
+	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+	
+	<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'> 
+
+	<link rel=”alternate” type=”application/rss+xml” title=”Patrick E. McLean (RSS 2.0)” href=”http://feeds.feedburner.com/PatrickEMclean” />
+
+	<link rel=”alternate” type="application/atom+xml"
+	 title=”Patrick E. McLean (RSS 2.0)” href=”http://feeds.feedburner.com/PatrickEMclean” />
+
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24332471-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href=".images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/apple-touch-icon-114x114.png">
+
+	
+</head>
+<body>
+
+
+	<header id="header">
+		<div class="inner clearfix">
+			
+			<h1><a href="{{ base_url }}">{{ site_title }}</a></h1>
+
+			<!-- <div class="headertype">
+				PRESENTING YOU WITH MANY PAGES INCLUDING:<BR>
+
+				<a href="{{ base_url }}/about">ABOUT, <a href="{{ base_url }}/contact">CONTACT, </a><a href="{{ base_url }}/books">BOOKS</a>, and <a href="{{ base_url }}/speaking">SPEAKING/TEACHING</a>  
+			</div> -->
+
+		</div>
+	
+
+<!--End mc_embed_signup-->
+
+
+	</header>
+
+	<section id="content">
+
+
+			<div class="inner clearfix">
+	
+			{{ content }}
+		</div>
+	</section>
+	
+	<footer id="footer">
+		<div class="inner clearfix">
+
+
+
+{% if is_front_page %}
+
+	<hr>
+
+	<div class="subscribe">If you've made it this far, why not <a href="#">subscribe?</a></div> <br>
+
+<div class="searchblob">
+
+
+<script>
+  (function() {
+    var cx = '000518898980765515244:8nss_auknps';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
+
+
+
+</div>
+
+{% else %}
+
+<hr>
+<div class="subscribe">If you've made it this far, why not <a href="{{ base_url }}/subscribe">subscribe?</a></div> <br>
+
+	<div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'patrickemclean'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+{% endif %}
+ 
+		</div>
+
+
+	</footer>
+    
+</body>
+</html>
