@@ -8,7 +8,7 @@
 	 *
 	 *		https://gist.github.com/1809044
 	 
- 
+ */ 
 	// The commands
 	$commands = array(
 		'echo $PWD',
@@ -49,4 +49,3 @@
 </html>
 
 
-*/
