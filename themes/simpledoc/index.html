@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	
+	<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+{% if meta.description %}
+	<meta name="description" content="{{ meta.description }}"> 
+{% endif %}
+
+{% if meta.robots %}
+	<meta name="robots" content="{{ meta.robots }}">
+{% endif %}
+	
+	
+	<link rel="stylesheet" href="{{ theme_url }}/stylesheets/style.css" type="text/css" />
+
+	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+	
+	<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'> 
+
+	<link rel=”alternate” type=”application/rss+xml” title=”Patrick E. McLean (RSS 2.0)” href=”http://feeds.feedburner.com/PatrickEMclean” />
+
+	<link rel=”alternate” type="application/atom+xml"
+	 title=”Patrick E. McLean (RSS 2.0)” href=”http://feeds.feedburner.com/PatrickEMclean” />
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24332471-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		
+		$('#one').mirror('#two'); 
+		$('#two').mirror('#three'); 
+		$('#three').mirror('#four');
+		$('#four').mirror('#entry_1987573691'); 
+
+	});
+
+	$.fn.mirror = function (selector) {
+    return this.each(function () {
+        var $this = $(this);
+        var $selector = $(selector);
+        $this.bind('keyup', function () {
+            $selector.val(($this.val()));
+        });
+    });
+	};
+
+
+</script>
+
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href=".images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/apple-touch-icon-114x114.png">
+
+	
+</head>
+<body>
+
+
+	<header id="header">
+		<div class="inner clearfix">
+
+		<div id="menu">
+
+			<ul>
+				<li><a href="{{ base_url }}/about">about</a></li>
+				<li><a href="{{ base_url }}/exercise">exercise</a></li>
+				<li><a href="{{ base_url }}/faq">f.a.q.</a></li>
+				<li><a href="{{ base_url }}/resources">resources</a></li>
+				<li><a href="mailto:patrick@goodwordsrightorder.com">contact</a></li>
+
+			</ul>
+
+			     
+
+
+		</div>
+
+
+			<h1><a href="{{ base_url }}"><strong>good words</strong> (right order)</a></h1>
+
+
+		</div>
+	
+
+
+
+	</header>
+
+	<section id="content">
+
+
+			<div class="inner clearfix">
+	
+			{{ content }}
+		</div>
+	</section>
+	
+	<footer id="footer">
+		<div class="inner clearfix">
+
+
+
+
+
+
+
+
+
+
+
+ 
+		</div>
+
+
+	</footer>
+    
+</body>
+</html>
