@@ -4,12 +4,12 @@ Title: good words (right order)
 
 
 
-# Helping People Get to the Point So They Can Get Things Done
+# Get to the Point. Get Things Done.
 
 The ability to communicate powerfully and succinctly has never been more important. That's why we help busy professionals produce better writing with less effort.
 
 
-### Never Get a Bad Email Again. <br>(at least from your team)
+### An End to Bad Email. <br> (at least from your team)
 
 We offer a unique training session that will put an end to rambling, badly written emails within your team. Bad emails lower productivity, raise stress and damage careers. But the good news is fixing email isn't expensive or difficult. Here's how we do it:
 
@@ -23,11 +23,11 @@ We offer a unique training session that will put an end to rambling, badly writt
 
  -->
 
-## Step One -- A 2.5 Hour Training Session
+## Step One -- A 2.5 Hour Workshop
 
-It's a combination lecture, workshop and Come-to-Jesus-and-Cut-Out-the-Bullshit meeting that will get everybody on the same page about how to communicate clearly and effectively. We also teach people how to help each other become clearer, more powerful writers. While the focus is on email, the principles of writing quickly and well apply to all forms of communication. The gains in clarity and efficiency last for entire careers.
+We start with a combination lecture, workshop and Cut-Out-the-Bullshit meeting that will get everybody on the same page about how to communicate clearly and effectively. This session also teach people how to help each other become clearer, more powerful writers. While the focus is on email, the principles of writing quickly and well apply to all forms of communication. The gains in clarity and efficiency last for entire careers.
 
-## Step Two -- Point of Need Coaching.
+## Step Two -- Point of Need Coaching
 
 After the class, when anybody in the group gets a bad or confusing email from anybody else in the group, they send it to us. 
 
@@ -56,22 +56,30 @@ The reason that people have difficulty writing is not that writing is hard. It's
 
 > There is a short list of presenters who can captivate the attention of a group of startup CEOs for two hours. Our clients write better and have improved their messaging as a result of their time spent with Patrick.&nbsp;We highly recommend gw(ro) and Patrick to anyone wishing to immediately improve their writing.
 
- >– Marilyn Carpenter, Ventureprise, Inc
+ >-- Marilyn Carpenter, Ventureprise, Inc
 
 <br/>
 
  > The feedback from my team has been fantastic. Everyone appreciated the tools and tactics provided by gw(ro) and were able to implement them immediately. They’re all writing faster, shorter… and more importantly better. I’m looking forward to rolling this out to our entire agency in 2013!
 
- >– Travis Unwin, Sitewire
+ >-- Travis Unwin, Sitewire
 
 <br/>
 
- >People should be required to take your class to work in marketing. Like the mandatory military service in Switzerland.
 
- >– Adam Roe, Lunchbox
+>"Patrick has a knack for getting what you want to say out of your head and onto the paper in a clear, concise manner.  He frees you from using too many words and allows you to get to your point much quicker (or is it… more quickly?).  His instant feedback and critique allow for course corrections and improvements to take place right before your eyes.  At the end of the workshop, you feel better about what you have communicated, and your team knows what you want."  
+
+>-- Lynne Ingersoll, Organization Development on the Edge (ODE) and Carolinas HealthCare System 
+
+<br/>
 
 
-### A Real Return on Training
+>People should be required to take your class to work in marketing. Like the mandatory military service in Switzerland.
+
+>-- Adam Roe, Lunchbox
+
+
+### A Real Return on Skill Improvement
 
 Every organization varies, but these assumptions are consistent with our experience.
 
