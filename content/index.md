@@ -13,7 +13,7 @@ The ability to communicate powerfully and succinctly has never been more importa
 
 We offer a unique training session that will put an end to rambling, badly written emails within your team. Bad emails lower productivity, raise stress and damage careers. But the good news is fixing email isn't expensive or difficult. Here's how we do it:
 
-<!-- nd the confusion, lost productivity and damaged careers that come with it? It’s not impossible. In fact, it’s not even that difficult or expensive. If you want productive clarity for you and your team, you've come to the right place. 
+<!-- Productive clarity for you and your team.
 
 ## The Benefits
 
