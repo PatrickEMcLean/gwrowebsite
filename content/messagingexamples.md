@@ -15,7 +15,7 @@ Easily the most complicated B2B analysis we've ever done. The sale of a medical 
 
 This project required interviews with data scientists, medical researchers and CEO's, CMO's, CMIO's, CNO's and anybody else with the letter 'C' in their titles at large hospitals across the country. To say nothing of a crash course in the EHR and medical informatics.
 
-[**CPI Security**](./panwfiles/rothmanbrief.pdf)
+[**CPI Security**](./panwfiles/CPIBrief.pdf)
 
 Security in itself is a tricky concept, here's how we have wrestled with it before. 
 
@@ -23,9 +23,9 @@ Security in itself is a tricky concept, here's how we have wrestled with it befo
 ## Positioning and Ideas
 
 
-**[Rothman]()**
+**[Rothman](./panwfiles/RothmanMessagingExamples)**
 
-**[AAA Executions]()**
+**[AAA Executions](./panwfiles/AAA.pdf)**
 
 
 <!-- CPI SECURITY
