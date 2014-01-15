@@ -5,6 +5,12 @@ Title: Resources
 
 <h1>Resources</h1>
 
+Try this [Strategic Writing Exercise](./exercise)
+
+Browse a [Writing FAQ](./FAQ)
+
+Or enjoy the e-books and videos below.
+
 
 <h2>How to Kill a Word</h2>
 <div class="tutorial">
